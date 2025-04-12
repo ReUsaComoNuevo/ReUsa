@@ -55,20 +55,40 @@
     }
 
     .hero {
-      background-color: #ecf0f1;
-      padding: 60px 20px;
+      background: linear-gradient(135deg, #2c3e50, #16a085); /* Fondo con gradiente */
+      color: white;
+      padding: 80px 20px;
       text-align: center;
+      border-bottom: 5px solid #34495e; /* Añadí una línea divisoria */
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* Sombra para darle más profundidad */
     }
 
     .hero h1 {
-      font-size: 3em;
-      color: #2c3e50;
-      margin-bottom: 10px;
+      font-size: 4em; /* Hice el título más grande */
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra al texto */
     }
 
     .hero p {
+      font-size: 1.5em;
+      margin-top: 10px;
+      color: #f1c40f;
+    }
+
+    .hero button {
+      background-color: #f39c12;
+      color: white;
+      border: none;
+      padding: 15px 30px;
       font-size: 1.2em;
-      color: #555;
+      border-radius: 25px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero button:hover {
+      background-color: #e67e22; /* Cambio de color cuando el botón se pasa por encima */
     }
 
     .features {
@@ -113,6 +133,19 @@
       header img {
         margin-bottom: 10px;
       }
+
+      .hero h1 {
+        font-size: 2.5em;
+      }
+
+      .hero p {
+        font-size: 1.2em;
+      }
+
+      .hero button {
+        font-size: 1.1em;
+        padding: 12px 24px;
+      }
     }
   </style>
 </head>
@@ -135,6 +168,7 @@
   <section class="hero">
     <h1>Bienvenido a ReUsa</h1>
     <p>Tu tienda de confianza para comprar y vender artículos de segunda mano.</p>
+    <button>Explora Ahora</button>
   </section>
 
   <section class="features">
@@ -157,6 +191,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
